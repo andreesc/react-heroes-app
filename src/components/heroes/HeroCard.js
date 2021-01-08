@@ -12,7 +12,7 @@ function HeroCard ({
         <div className="card m-2 ms-2" style={{maxWidth:540}}>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={`./assets/heroes/${id}.jpg`} className="card-img" alt={superhero} />
+                    <img src={`https://andreesc.github.io/react-heroes-app/assets/heroes/${id}.jpg`} className="card-img" alt={superhero} />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">

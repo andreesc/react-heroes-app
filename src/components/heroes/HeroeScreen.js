@@ -25,7 +25,7 @@ function HeroScreen({history}) {
 		<div className="row mt-5">
 			<div className="col-4">
 				<img
-					src={`../assets/heroes/${heroId}.jpg`}
+					src={`https://andreesc.github.io/react-heroes-app/assets/heroes/${heroId}.jpg`}
 					alt={hero.superhero}
 					className="img-thumbnail animate__animated animate__fadeInLeft"
 				/>
